@@ -24,3 +24,10 @@ ul{
   color: white;
   list-style: none;
 }
+.links{
+  text-decoration: none;
+  margin: 5px;
+}
+a { 
+  color: inherit; 
+} 

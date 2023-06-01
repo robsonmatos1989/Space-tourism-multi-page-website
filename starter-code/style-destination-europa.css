@@ -6,7 +6,7 @@ body{
 .container{
   color: white;
   float: right;
-  width: 400px;
+  width: 400px;  
 }
 h3{
   color: white;
@@ -24,3 +24,10 @@ ul{
   color: white;
   list-style: none;
 }
+.links{
+  text-decoration: none;
+  margin: 5px;
+}
+a { 
+  color: inherit; 
+} 
