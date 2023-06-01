@@ -4,37 +4,33 @@ body{
 	background-size: cover;
 }
 .home{
-	color: white;
-	/*margin-top: 10px;*/
-	letter-spacing: 2.35px;
-	/*text-align: right;*/
+	color: white;	
+	letter-spacing: 2.35px;	
 	font-size: 16px;
-	font-family: "Barlow Condensed", sans-serif;
-	/*letter-spacing: 2.35px;*/
+	font-family: "Barlow Condensed", sans-serif;	
 	color: white;
-	padding: 16px;
+	padding: 30px;
+	position: absolute;/*para permitir o posicionamento absoluto*/
+	top: 0;/*O TOP: 0 E O RIGHT: 0 SERVE PARA ALINHAR A DIV NO CANTO SUPERIOR DIREITO*/
+	right: 0;
 	
 }
 .links{
 	text-decoration: none;	
-}
-a { 
 	color: inherit; 
 }
 
-
 li{
-	float: right;*/
+	float: right;
 	margin: 5px;	
 	list-style: none;
-	display: flex;
-    flex-direction: row-reverse;
-	
 }
-/*#container-menu{
-	text-align: right;
-}*/
-
+.container{
+  color: white;
+  float: right;
+  width: 400px;
+  margin-top: 300px;  
+}
 .container-paragrafo{
 	width: 400px;
 	height: 200px;

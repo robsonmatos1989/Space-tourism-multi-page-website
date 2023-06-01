@@ -3,10 +3,27 @@ body{
 	background-repeat: no-repeat;
 	background-size: cover;
 }
+.home{
+      color: white; 
+      letter-spacing: 2.35px; 
+      font-size: 16px;
+      font-family: "Barlow Condensed", sans-serif;  
+      color: white;
+      padding: 30px;
+      position: absolute;/*para permitir o posicionamento absoluto*/
+      top: 0;/*O TOP: 0 E O RIGHT: 0 SERVE PARA ALINHAR A DIV NO CANTO SUPERIOR DIREITO*/
+      right: 0;
+}
 .container{
-	color: white;
-	float: right;
-	width: 400px;
+  color: white;
+  float: right;
+  width: 400px;
+  margin-top: 300px;  
+}
+.position-planet{
+  margin-top: 250px;
+  margin-left: 200px;  
+  display: inline-block;
 }
 h3{
 	color: white;
