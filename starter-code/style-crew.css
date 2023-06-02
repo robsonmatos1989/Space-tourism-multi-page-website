@@ -1,5 +1,5 @@
 body{
-	background-image: url(assets/home/background-home-desktop.jpg);
+	background-image: url(assets/crew/background-crew-desktop.jpg);
 	background-repeat: no-repeat;
 	background-size: cover;
 }
@@ -7,11 +7,11 @@ body{
 	margin-left: 20px;
 	margin-top: 15px;
 }
-/*#linha{
+#linha{
 	width: 50%;
 	margin-left: 50px;
 	margin-top: 1px;
-}*/
+}
 .home{
 	color: white;	
 	letter-spacing: 2.35px;	
@@ -31,6 +31,7 @@ body{
 .links{
 	text-decoration: none;	
 	color: inherit; 
+	margin-left: 15px;
 }
 
 li{
@@ -42,7 +43,7 @@ li{
   color: white;
   float: right;
   width: 400px;
-  margin-top: 300px;  
+  margin-top: 200px;  
 }
 .container-paragrafo{
 	width: 400px;
@@ -90,4 +91,11 @@ h1{
 	width: 50%;
 	text-align: right;
 	
+}
+#pick{
+	color: white;
+  margin-left: 500px;
+  width: 400px;
+  text-align: center;
+  margin-top: 200px;
 }
