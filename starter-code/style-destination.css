@@ -3,15 +3,8 @@ body{
 	background-repeat: no-repeat;
 	background-size: cover;
 }
-#logo{
-	margin-left: 20px;
-	margin-top: 15px;
-}
-#linha{
-	width: 50%;
-	margin-left: 50px;
-	margin-top: 1px;
-}
+
+
 .home{
 	color: white;	
 	letter-spacing: 2.35px;	
@@ -34,68 +27,37 @@ body{
 	margin-left: 15px;
 }
 
-li{
-	float: right;
-	margin: 5px;	
-	list-style: none;
-}
+
 .container{
   color: white;
   float: right;
-  width: 400px;
-  margin-top: 200px;  
+  width: 500px;
+  margin-top: 200px; 
+  margin-right: 40px; 
+  font-size: 26px;
+  max-width: 800px;
 }
-.container-paragrafo{
-	width: 400px;
-	height: 200px;
-	color: white;
-	margin-left: 20px;
-	margin-top: 300px;
-}
-p{
-	text-align: justify;
-}
+
+
 h1{
 	font-size: 120px;
 }
 
-.explore{
-	margin-top: 90px;
-		
-}
-.container-explore{	
-	background-color: white;
-	width: 200px;
-	height: 200px;
-	float: right;
-	color: black;
-	text-align: center;
-	border-radius: 500px;
-	margin-top: 150px;
-	margin-right: 50px;
-}
-/*#container-menu{
-	text-align: right;
-}*/
-.container-crew{
-	color: white;	
-	letter-spacing: 2.35px;	
-	font-size: 16px;
-	font-family: "Barlow Condensed", sans-serif;	
-	color: white;
-	padding: 30px;
-	position: absolute;/*para permitir o posicionamento absoluto*/
-	top: 0;/*O TOP: 0 E O RIGHT: 0 SERVE PARA ALINHAR A DIV NO CANTO SUPERIOR DIREITO*/
-	right: 0;	
-	margin-top: 250px;
-	width: 50%;
-	text-align: right;
-	
-}
+
+
 #pick{
-	color: white;
-  margin-left: 500px;
+	color: gray;
+  /*margin-left: 500px;
   width: 400px;
   text-align: center;
   margin-top: 200px;
+  float: right;*/
+  font-size: 26px;
+}
+a{
+	text-decoration: none;
+	color: inherit; 
+}
+a:hover{/*para o link ficar subliinhado apenas quando passar a seta por cima*/
+	text-decoration: underline;
 }

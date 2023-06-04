@@ -29,36 +29,22 @@ body{
 	
 }
 .container-crew{
-	color: white;	
-	letter-spacing: 2.35px;	
-	font-size: 16px;
-	font-family: "Barlow Condensed", sans-serif;	
-	color: white;
+	color: gray;	
+	letter-spacing: 5.35px;	
+	font-size: 26px;	
 	padding: 30px;
 	position: absolute;/*para permitir o posicionamento absoluto*/
 	top: 0;/*O TOP: 0 E O RIGHT: 0 SERVE PARA ALINHAR A DIV NO CANTO SUPERIOR DIREITO*/
-	right: 0;	
-	background-color: rgba(255,255,255,0.3);
-	margin-top: 50px;
-	width: 50%;
+	right: 0;		
+	margin-top: 80px;
+	width: 70%;
 	text-align: right;
-	
 }
 .links{
 	text-decoration: none;	
 	color: inherit; 
 }
-li{
-	float: right;
-	margin: 5px;	
-	list-style: none;
-}
-.container{
-  color: white;
-  float: right;
-  width: 400px;
-  margin-top: 300px;  
-}
+
 .container-paragrafo{
 	width: 400px;
 	height: 200px;
@@ -69,6 +55,7 @@ li{
 }
 p{
 	text-align: justify;
+	font-size: 20px;
 }
 h1{
 	font-size: 120px;
@@ -77,4 +64,11 @@ h1{
 	text-align: center;
 	float: right;
 	margin-top: 2%;
+}
+a{
+	text-decoration: none;
+	color: inherit; 
+}
+a:hover{/*para o link ficar subliinhado apenas quando passar a seta por cima*/
+	text-decoration: underline;
 }

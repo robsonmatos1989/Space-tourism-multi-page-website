@@ -4,7 +4,7 @@ body{
 	background-size: cover;
 }
 #logo{
-	margin-left: 20px;
+	margin-left: 100px;
 	margin-top: 15px;
 }
 /*#linha{
@@ -48,11 +48,12 @@ li{
 	width: 400px;
 	height: 200px;
 	color: white;
-	margin-left: 20px;
+	margin-left: 100px;
 	margin-top: 300px;
 }
 p{
 	text-align: justify;
+	font-size: 20px;
 }
 h1{
 	font-size: 120px;
@@ -60,6 +61,7 @@ h1{
 
 .explore{
 	margin-top: 90px;
+	
 		
 }
 .container-explore{	
@@ -70,8 +72,8 @@ h1{
 	color: black;
 	text-align: center;
 	border-radius: 500px;
-	margin-top: 150px;
-	margin-right: 50px;
+	margin-top: 50px;
+	margin-right: 50px;	
 }
 /*#container-menu{
 	text-align: right;
@@ -90,4 +92,11 @@ h1{
 	width: 50%;
 	text-align: right;
 	
+}
+a{
+	text-decoration: none;
+	color: inherit; 
+}
+a:hover{/*para o link ficar subliinhado apenas quando passar a seta por cima*/
+	text-decoration: underline;
 }
