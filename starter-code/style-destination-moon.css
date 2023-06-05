@@ -4,15 +4,21 @@ body{
 	background-size: cover;
 }
 .home{
-      color: white; 
-      letter-spacing: 2.35px; 
-      font-size: 16px;
-      font-family: "Barlow Condensed", sans-serif;  
-      color: white;
-      padding: 30px;
-      position: absolute;/*para permitir o posicionamento absoluto*/
-      top: 0;/*O TOP: 0 E O RIGHT: 0 SERVE PARA ALINHAR A DIV NO CANTO SUPERIOR DIREITO*/
-      right: 0;
+  color: white; 
+  letter-spacing: 2.35px; 
+  font-size: 16px;
+  font-family: "Barlow Condensed", sans-serif;  
+  color: white;
+  padding: 30px;
+  position: absolute;/*para permitir o posicionamento absoluto*/
+  top: 0;/*O TOP: 0 E O RIGHT: 0 SERVE PARA ALINHAR A DIV NO CANTO SUPERIOR DIREITO*/
+  right: 0; 
+  background-color: rgba(255,255,255,0.3);
+  margin-top: 10px;
+  width: 50%;
+  text-align: right;
+  font-weight: bold;
+  
 }
 .container{
   color: white;
@@ -55,4 +61,12 @@ a:hover{/*para o link ficar subliinhado apenas quando passar a seta por cima*/
 p{
   text-align: justify;
   font-size: 20px;
+}
+.distance{
+  display: inline-block;
+  margin-left: 20px;
+  color: gray;
+}
+.dist-and-year{
+  font-size: 32px;
 }
